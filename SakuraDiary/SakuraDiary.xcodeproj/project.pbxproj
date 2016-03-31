@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5028FF9E1CAD253500701144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028FF9D1CAD253500701144 /* main.m */; };
+		5028FFA11CAD253500701144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028FFA01CAD253500701144 /* AppDelegate.m */; };
+		5028FFA41CAD253500701144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028FFA31CAD253500701144 /* ViewController.m */; };
+		5028FFA71CAD253500701144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5028FFA51CAD253500701144 /* Main.storyboard */; };
+		5028FFA91CAD253500701144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5028FFA81CAD253500701144 /* Assets.xcassets */; };
+		5028FFAC1CAD253500701144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5028FFAA1CAD253500701144 /* LaunchScreen.storyboard */; };
+		5028FFB71CAD253600701144 /* SakuraDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028FFB61CAD253600701144 /* SakuraDiaryTests.m */; };
+		5028FFC21CAD253600701144 /* SakuraDiaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028FFC11CAD253600701144 /* SakuraDiaryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5028FFB31CAD253600701144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5028FF911CAD253500701144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5028FF981CAD253500701144;
+			remoteInfo = SakuraDiary;
+		};
+		5028FFBE1CAD253600701144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5028FF911CAD253500701144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5028FF981CAD253500701144;
+			remoteInfo = SakuraDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5028FF991CAD253500701144 /* SakuraDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SakuraDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5028FF9D1CAD253500701144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5028FF9F1CAD253500701144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5028FFA01CAD253500701144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5028FFA21CAD253500701144 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5028FFA31CAD253500701144 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5028FFA61CAD253500701144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5028FFA81CAD253500701144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5028FFAB1CAD253500701144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5028FFAD1CAD253500701144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5028FFB21CAD253600701144 /* SakuraDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakuraDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5028FFB61CAD253600701144 /* SakuraDiaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SakuraDiaryTests.m; sourceTree = "<group>"; };
+		5028FFB81CAD253600701144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5028FFBD1CAD253600701144 /* SakuraDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakuraDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5028FFC11CAD253600701144 /* SakuraDiaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SakuraDiaryUITests.m; sourceTree = "<group>"; };
+		5028FFC31CAD253600701144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5028FF961CAD253500701144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5028FFAF1CAD253600701144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5028FFBA1CAD253600701144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5028FF901CAD253500701144 = {
+			isa = PBXGroup;
+			children = (
+				5028FF9B1CAD253500701144 /* SakuraDiary */,
+				5028FFB51CAD253600701144 /* SakuraDiaryTests */,
+				5028FFC01CAD253600701144 /* SakuraDiaryUITests */,
+				5028FF9A1CAD253500701144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5028FF9A1CAD253500701144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5028FF991CAD253500701144 /* SakuraDiary.app */,
+				5028FFB21CAD253600701144 /* SakuraDiaryTests.xctest */,
+				5028FFBD1CAD253600701144 /* SakuraDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5028FF9B1CAD253500701144 /* SakuraDiary */ = {
+			isa = PBXGroup;
+			children = (
+				5028FF9F1CAD253500701144 /* AppDelegate.h */,
+				5028FFA01CAD253500701144 /* AppDelegate.m */,
+				5028FFA21CAD253500701144 /* ViewController.h */,
+				5028FFA31CAD253500701144 /* ViewController.m */,
+				5028FFA51CAD253500701144 /* Main.storyboard */,
+				5028FFA81CAD253500701144 /* Assets.xcassets */,
+				5028FFAA1CAD253500701144 /* LaunchScreen.storyboard */,
+				5028FFAD1CAD253500701144 /* Info.plist */,
+				5028FF9C1CAD253500701144 /* Supporting Files */,
+			);
+			path = SakuraDiary;
+			sourceTree = "<group>";
+		};
+		5028FF9C1CAD253500701144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5028FF9D1CAD253500701144 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5028FFB51CAD253600701144 /* SakuraDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				5028FFB61CAD253600701144 /* SakuraDiaryTests.m */,
+				5028FFB81CAD253600701144 /* Info.plist */,
+			);
+			path = SakuraDiaryTests;
+			sourceTree = "<group>";
+		};
+		5028FFC01CAD253600701144 /* SakuraDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5028FFC11CAD253600701144 /* SakuraDiaryUITests.m */,
+				5028FFC31CAD253600701144 /* Info.plist */,
+			);
+			path = SakuraDiaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5028FF981CAD253500701144 /* SakuraDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5028FFC61CAD253600701144 /* Build configuration list for PBXNativeTarget "SakuraDiary" */;
+			buildPhases = (
+				5028FF951CAD253500701144 /* Sources */,
+				5028FF961CAD253500701144 /* Frameworks */,
+				5028FF971CAD253500701144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SakuraDiary;
+			productName = SakuraDiary;
+			productReference = 5028FF991CAD253500701144 /* SakuraDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5028FFB11CAD253600701144 /* SakuraDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5028FFC91CAD253600701144 /* Build configuration list for PBXNativeTarget "SakuraDiaryTests" */;
+			buildPhases = (
+				5028FFAE1CAD253600701144 /* Sources */,
+				5028FFAF1CAD253600701144 /* Frameworks */,
+				5028FFB01CAD253600701144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5028FFB41CAD253600701144 /* PBXTargetDependency */,
+			);
+			name = SakuraDiaryTests;
+			productName = SakuraDiaryTests;
+			productReference = 5028FFB21CAD253600701144 /* SakuraDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5028FFBC1CAD253600701144 /* SakuraDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5028FFCC1CAD253600701144 /* Build configuration list for PBXNativeTarget "SakuraDiaryUITests" */;
+			buildPhases = (
+				5028FFB91CAD253600701144 /* Sources */,
+				5028FFBA1CAD253600701144 /* Frameworks */,
+				5028FFBB1CAD253600701144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5028FFBF1CAD253600701144 /* PBXTargetDependency */,
+			);
+			name = SakuraDiaryUITests;
+			productName = SakuraDiaryUITests;
+			productReference = 5028FFBD1CAD253600701144 /* SakuraDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5028FF911CAD253500701144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = load;
+				TargetAttributes = {
+					5028FF981CAD253500701144 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = DP443AZ3TA;
+					};
+					5028FFB11CAD253600701144 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = DP443AZ3TA;
+						TestTargetID = 5028FF981CAD253500701144;
+					};
+					5028FFBC1CAD253600701144 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = DP443AZ3TA;
+						TestTargetID = 5028FF981CAD253500701144;
+					};
+				};
+			};
+			buildConfigurationList = 5028FF941CAD253500701144 /* Build configuration list for PBXProject "SakuraDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5028FF901CAD253500701144;
+			productRefGroup = 5028FF9A1CAD253500701144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5028FF981CAD253500701144 /* SakuraDiary */,
+				5028FFB11CAD253600701144 /* SakuraDiaryTests */,
+				5028FFBC1CAD253600701144 /* SakuraDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5028FF971CAD253500701144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028FFAC1CAD253500701144 /* LaunchScreen.storyboard in Resources */,
+				5028FFA91CAD253500701144 /* Assets.xcassets in Resources */,
+				5028FFA71CAD253500701144 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5028FFB01CAD253600701144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5028FFBB1CAD253600701144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5028FF951CAD253500701144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028FFA41CAD253500701144 /* ViewController.m in Sources */,
+				5028FFA11CAD253500701144 /* AppDelegate.m in Sources */,
+				5028FF9E1CAD253500701144 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5028FFAE1CAD253600701144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028FFB71CAD253600701144 /* SakuraDiaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5028FFB91CAD253600701144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028FFC21CAD253600701144 /* SakuraDiaryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5028FFB41CAD253600701144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5028FF981CAD253500701144 /* SakuraDiary */;
+			targetProxy = 5028FFB31CAD253600701144 /* PBXContainerItemProxy */;
+		};
+		5028FFBF1CAD253600701144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5028FF981CAD253500701144 /* SakuraDiary */;
+			targetProxy = 5028FFBE1CAD253600701144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5028FFA51CAD253500701144 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5028FFA61CAD253500701144 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5028FFAA1CAD253500701144 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5028FFAB1CAD253500701144 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5028FFC41CAD253600701144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5028FFC51CAD253600701144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5028FFC71CAD253600701144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SakuraDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.load.SakuraDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5028FFC81CAD253600701144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SakuraDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.load.SakuraDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5028FFCA1CAD253600701144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SakuraDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.load.SakuraDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SakuraDiary.app/SakuraDiary";
+			};
+			name = Debug;
+		};
+		5028FFCB1CAD253600701144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SakuraDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.load.SakuraDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SakuraDiary.app/SakuraDiary";
+			};
+			name = Release;
+		};
+		5028FFCD1CAD253600701144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SakuraDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.load.SakuraDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SakuraDiary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5028FFCE1CAD253600701144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SakuraDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.load.SakuraDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SakuraDiary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5028FF941CAD253500701144 /* Build configuration list for PBXProject "SakuraDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5028FFC41CAD253600701144 /* Debug */,
+				5028FFC51CAD253600701144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5028FFC61CAD253600701144 /* Build configuration list for PBXNativeTarget "SakuraDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5028FFC71CAD253600701144 /* Debug */,
+				5028FFC81CAD253600701144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5028FFC91CAD253600701144 /* Build configuration list for PBXNativeTarget "SakuraDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5028FFCA1CAD253600701144 /* Debug */,
+				5028FFCB1CAD253600701144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5028FFCC1CAD253600701144 /* Build configuration list for PBXNativeTarget "SakuraDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5028FFCD1CAD253600701144 /* Debug */,
+				5028FFCE1CAD253600701144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5028FF911CAD253500701144 /* Project object */;
+}
